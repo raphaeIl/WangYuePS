@@ -111,15 +111,15 @@ namespace NTR.SDKServer.Controllers
         ""no_code_brief"": ""\u8bf7\u8054\u7cfb\u4f01\u4e1a\u5ba2\u670dQQ\uff1a800185843"",
         ""internal_experience"": ""hidden"",
         ""nonage_duration"": 60,
-        ""nonage_time_st"": ""2025-01-02 21:00:00"",
-        ""nonage_time_end"": ""2025-01-03 20:00:00"",
+        ""nonage_time_st"": ""2025-01-03 21:00:00"",
+        ""nonage_time_end"": ""2025-01-04 20:00:00"",
         ""captcha_common"": ""hidden"",
         ""download_url"": """",
         ""up_memo"": """",
         ""is_force_up"": ""hidden"",
         ""review_bundle_ver"": """",
         ""protocol_version"": """",
-        ""ts"": 1735898554,
+        ""ts"": 1735930622,
         ""agreement"": [
             {
                 ""type"": ""\u9690\u79c1\u534f\u8bae"",
@@ -149,24 +149,24 @@ namespace NTR.SDKServer.Controllers
     ""message"": ""success"",
     ""data"": {
         ""launcher_update"": {
-            ""id"": 163,
-            ""version"": ""1.1.0.10"",
-            ""version_content"": ""1. u4feeu590du5305u540du4e2du6587u5bfcu81f4u7f13u5b58u6e05u7406u5931u8d25u7684u95eeu9898n2. u4feeu590du6e38u620fu5b89u88c5u5728u6709u7a7au683cu7684u8defu5f84u53efu80fdu5220u9664u5931u8d25u7684u95eeu9898"",
-            ""publish_time"": ""2024-12-31 18:27:03"",
-            ""cdn_url"": ""https://wy-game-launcher-cdn.shiyue.com/release/launcher_update/1/1.1.0.10/"",
-            ""check_file_url"": ""https://wy-game-launcher-cdn.shiyue.com/release/launcher_update/1/1.1.0.10/check_file.json"",
-            ""check_file_md5"": ""3eb20356d60c07c626252407d75c52da"",
-            ""zip_md5"": ""3a62773eb510f0559655d08ab3b2b51a"",
+            ""id"": 168,
+            ""version"": ""1.1.0.11"",
+            ""version_content"": ""1. \u7528\u6237\u53cd\u9988\u65b0\u589e\u542f\u52a8\u5668\u65e5\u5fd7\u548cSDK\u65e5\u5fd7"",
+            ""publish_time"": ""2025-01-03 22:13:33"",
+            ""cdn_url"": ""https://wy-game-launcher-cdn.shiyue.com/release/launcher_update/1/1.1.0.11/"",
+            ""check_file_url"": ""https://wy-game-launcher-cdn.shiyue.com/release/launcher_update/1/1.1.0.11/check_file.json"",
+            ""check_file_md5"": ""e162f642af1dd5b7235426ac68404038"",
+            ""zip_md5"": ""29854e7764a6f2670fa1224fc493ed10"",
             ""pre_update_num"": 0,
-            ""zip_url"": ""https://wy-game-launcher-cdn.shiyue.com/release/launcher_update/1/package_package_1.1.0.10_name_WangYue2-1-release-1.1.0.10-39c450e.zip"",
-            ""zip_size"": 132327,
-            ""launcher_size"": 265380,
-            ""zip_name"": ""package_package_1.1.0.10_name_WangYue2-1-release-1.1.0.10-39c450e.zip""
+            ""zip_url"": ""https://wy-game-launcher-cdn.shiyue.com/release/launcher_update/1/package_package_1.1.0.11_name_WangYue2-1-release-1.1.0.11-029a5f3.zip"",
+            ""zip_size"": 132315,
+            ""launcher_size"": 265361,
+            ""zip_name"": ""package_package_1.1.0.11_name_WangYue2-1-release-1.1.0.11-029a5f3.zip""
         },
         ""game_update"": {
             ""id"": 120,
             ""version"": ""0.39.51"",
-            ""version_content"": ""svn u8d44u6e90u5de5u7a0bu7248u672c237329u524du7aefluau7248u672c237331u7b56u5212u914du7f6eu7248u672c237332 u7b56u5212luau7248u672c237335 shaderu7248u672c234031"",
+            ""version_content"": ""svn \u8d44\u6e90\u5de5\u7a0b\u7248\u672c237329\u524d\u7aeflua\u7248\u672c237331\u7b56\u5212\u914d\u7f6e\u7248\u672c237332 \u7b56\u5212lua\u7248\u672c237335 shader\u7248\u672c234031"",
             ""publish_time"": ""2024-12-31 20:17:34"",
             ""cdn_url"": ""https://wy-game-launcher-cdn.shiyue.com/release/game_update/1/0.39.51/"",
             ""check_file_url"": ""https://wy-game-launcher-cdn.shiyue.com/release/game_update/1/0.39.51/check_file.json"",
@@ -177,7 +177,18 @@ namespace NTR.SDKServer.Controllers
             ""zip_size"": 18390082,
             ""game_size"": 20358073,
             ""zip_name"": ""windows_out.zip"",
-            ""patch"": []
+            ""patch"": {
+                ""id"": 51,
+                ""version_content"": ""\u5305\u4f53\u5de5\u7a0bclient\u7248\u672c: 237693"",
+                ""cdn_url"": ""https://wy-game-launcher-cdn.shiyue.com/release/game_update/1/patch/51/"",
+                ""check_file_url"": ""https://wy-game-launcher-cdn.shiyue.com/release/game_update/1/patch/51/check_file.json"",
+                ""check_file_md5"": ""5fd3e428ad677b33868be2b04efc88c9"",
+                ""publish_time"": ""2025-01-03 20:19:11"",
+                ""zip_md5"": ""686b6bbe237ee672afa1f1c7b93b0cd8"",
+                ""zip_url"": ""https://wy-game-launcher-cdn.shiyue.com/release/game_update/1/game_17676398_name_windows_out.7z"",
+                ""zip_size"": 432484,
+                ""pre_update_num"": 0
+            }
         }
     }
 }
@@ -390,7 +401,7 @@ namespace NTR.SDKServer.Controllers
         public IActionResult GetAuthTipJS()
         {
             // JavaScript content
-            string jsContent = @"import{d,o as i,c as u,a as s,D as _,q as l,f as r,p as h,l as x,j as e,_ as f}from""./index-DoTuwXGr.js"";const o=t=>(h(""data-v-f616e45c""),t=t(),x(),t),m=o(()=>e(""div"",{class:""text-[#4C5054] text-[256px] medium-text""},""夏萝莉是小楠梁"",-1)),v=o(()=>e(""div"",{class:""pt-[23px] text-[#878787] text-[24px]""},[e(""p"",null,"" aaaaaaa亲爱的用户您好，根据国家规定，游戏用户均需要使用真实身份完成实名认证后方可进入游戏。请您根据提示完成实名认证。 "")],-1)),C=d({__name:""AuthenticationTip"",props:{data:{default:()=>({})}},setup(t,{expose:c}){const a=l(),n=()=>{a.push({name:""login"",query:{noCheckEnv:""true""}})},p=()=>{a.push({name:""authentication""})};return i(()=>{}),c({}),(k,I)=>(r(),u(_,{handleCancel:n,handleOk:p,cancelText:""原神"",class:""!h-[1000px]""},{title:s(()=>[m]),default:s(()=>[v]),_:1}))}}),S=f(C,[[""__scopeId"",""data-v-f616e45c""]]);export{S as default};";
+            string jsContent = @"import{d,o as i,c as u,a as s,D as _,q as l,f as r,p as h,l as x,j as e,_ as f}from""./index-DoTuwXGr.js"";const o=t=>(h(""data-v-f616e45c""),t=t(),x(),t),m=o(()=>e(""div"",{class:""text-[#4C5054] text-[48px] medium-text""},""seggs"",-1)),v=o(()=>e(""div"",{class:""pt-[23px] text-[#878787] text-[24px]""},[e(""p"",null,"" 亲爱的用户您好，根据国家规定，游戏用户均需要使用真实身份完成实名认证后方可进入游戏。请您根据提示完成实名认证。 "")],-1)),C=d({__name:""AuthenticationTip"",props:{data:{default:()=>({})}},setup(t,{expose:c}){const a=l(),n=()=>{a.push({name:""login"",query:{noCheckEnv:""true""}})},p=()=>{a.push({name:""authentication""})};return i(()=>{}),c({}),(k,I)=>(r(),u(_,{handleCancel:n,handleOk:p,cancelText:""取消"",class:""!h-[430px]""},{title:s(()=>[m]),default:s(()=>[v]),_:1}))}}),S=f(C,[[""__scopeId"",""data-v-f616e45c""]]);export{S as default};";
             // Set headers
             Response.Headers["Content-Type"] = "application/javascript; charset=utf-8";
             Response.Headers["ETag"] = "W/\"676f6df8-9aa\"";
@@ -404,6 +415,89 @@ namespace NTR.SDKServer.Controllers
             // Return the JavaScript content
             return Content(jsContent);
         }
+
+        [Route("wy/v1.0.0/assets/Authentication-Dk5NmKx9.js")]
+        public IActionResult GetAuthenticationJS()
+        {
+            // JavaScript content
+            string jsContent = @"import{d as _,u as g,J as y,K as w,C as A,A as S,L as F,r as b,o as k,c as C,a as i,D as T,q as M,M as B,$ as D,e as L,f as z,j as t,s as l,a0 as E,t as I,z as R,w as u,O as d}from""./index-DoTuwXGr.js"";import{t as V}from""./throttle-Dasc37Bf.js"";const j=t(""div"",{class:""text-[#4C5054] text-[48px] medium-text""},""实名认证"",-1),q=t(""div"",{class:""pt-[23px] text-[#878787] text-[24px] mb-[10px]""},[t(""p"",null,""亲爱的用户您好，根据国家规定，游戏用户均需要使用真实身份""),t(""p"",null,""完成实名认证后方可进入游戏，请您根据提示完成实名认证。"")],-1),N=[""title""],O=[""src""],U={class:""text-[#F55544] text-[20px] truncate""},J={class:""mt-[4px] relative""},K=t(""div"",{class:""flex items-center absolute left-[28px] top-1/2 -translate-y-1/2 text-[30px]""},[t(""div"",{class:""w-[91px] mr-[22px] text-[#47494F] flex justify-between""},[t(""div"",null,""姓""),t(""div"",null,""名"")]),t(""div"",{class:""w-[3px] h-[31px] bg-[#AFAFAF] rounded-[2px] opacity-50""})],-1),Q={class:""mt-[10px] relative""},Z=t(""div"",{class:""flex items-center absolute left-[28px] top-1/2 -translate-y-1/2 text-[30px]""},[t(""div"",{class:""w-[91px] mr-[22px] text-[#47494F]""},""身份证""),t(""div"",{class:""w-[3px] h-[31px] bg-[#AFAFAF] rounded-[2px] opacity-50""})],-1),P=_({__name:""Authentication"",props:{data:{default:()=>({})}},setup($,{expose:x}){const m=M();B();const r=g(),c=y();w(),A();const v=S(),e=F({name:"""",identity:""""}),o=b(""""),p=V(async()=>{if(f()){r.show(""正在认证中"");try{const n=await D({card_id:e.identity,card_name:e.name});o.value="""",await v.saveAccount(),console.log(n,""认证结果""),L()}catch(n){n.message&&(o.value=n.message)}r.hide()}},1e3),f=()=>{if(!e.name){c.addErrorToast({message:""请先输入姓名""});return}if(!e.identity){c.addErrorToast({message:""请先输入身份证号码""});return}return!0},h=()=>{m.push({name:""login"",query:{noCheckEnv:""true""}})};return k(()=>{}),x({}),(n,s)=>(z(),C(T,{goBackFunc:h},{title:i(()=>[j]),footer:i(()=>[t(""div"",{class:""big-agree-btn"",onClick:s[3]||(s[3]=(...a)=>l(p)&&l(p)(...a))},""立即认证"")]),default:i(()=>[q,t(""div"",{class:R([""flex items-center h-[22px]"",o.value?""opacity-100"":""opacity-0""]),title:o.value},[t(""img"",{src:l(E),class:""w-[20px] h-[20px] mr-[2px]""},null,8,O),t(""span"",U,I(o.value),1)],10,N),t(""div"",J,[u(t(""input"",{""onUpdate:modelValue"":s[0]||(s[0]=a=>e.name=a),type:""text"",placeholder:""请输入姓名"",class:""normal-input medium-text w-full max-w-xs pl-[180px]""},null,512),[[d,e.name]]),K]),t(""div"",Q,[u(t(""input"",{""onUpdate:modelValue"":s[1]||(s[1]=a=>e.identity=a),type:""text"",onInput:s[2]||(s[2]=a=>{e.identity=a.target.value.replace(/[^a-zA-Z0-9]/g,"""").slice(0,18)}),placeholder:""请输入身份证号码"",class:""normal-input medium-text w-full max-w-xs pl-[180px]""},null,544),[[d,e.identity]]),Z])]),_:1}))}});export{P as default};";
+            // Set headers
+            Response.Headers["Content-Type"] = "application/javascript; charset=utf-8";
+            Response.Headers["ETag"] = "W/\"676f6df8-9aa\"";
+            Response.Headers["Expires"] = "Tue, 07 Jan 2025 12:49:28 GMT";
+            Response.Headers["Last-Modified"] = "Sat, 28 Dec 2024 03:18:16 GMT";
+            Response.Headers["Cache-Control"] = "max-age=345600";
+            Response.Headers["X-NWS-LOG-UUID"] = "3006712708787903445";
+            Response.Headers["Connection"] = "keep-alive";
+            Response.Headers["X-Cache-Lookup"] = "Cache Miss";
+
+            // Return the JavaScript content
+            return Content(jsContent);
+        }
+
+        [Route("card/real")]
+        public IResult PostCardReal()
+        {
+            return Results.Text(@"
+{
+    ""code"": 0,
+    ""message"": ""\u6210\u529f"",
+    ""data"": {
+        ""is_real"": true,
+        ""age"": 60
+    }
+}
+");
+        }
+
+        [Route("wy/v1.0.0/user/login_success")]
+        public IActionResult GetUserLoginSuccess()
+        {
+            string htmlContent = @"
+<!doctype html>
+<html lang=""en"">
+  <head>
+    <meta charset=""UTF-8"" />
+    <link rel=""icon"" href=""/wy/v1.0.0/favicon.ico"" />
+    <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"" />
+    <title>SY PC SDK</title>
+    <script type=""module"" crossorigin src=""/wy/v1.0.0/assets/index-DoTuwXGr.js""></script>
+    <link rel=""stylesheet"" crossorigin href=""/wy/v1.0.0/assets/index-CC6zJijL.css"">
+  </head>
+  <body>
+    <div id=""app""></div>
+  </body>
+</html>
+";
+            // Set headers
+            Response.Headers["Content-Type"] = "text/html; charset=utf-8";
+            Response.Headers["ETag"] = "\"676f6df8-1d3\"";
+            Response.Headers["Last-Modified"] = "Sat, 28 Dec 2024 03:18:16 GMT";
+            Response.Headers["X-NWS-LOG-UUID"] = "11933844528989278561";
+            Response.Headers["Connection"] = "keep-alive";
+            Response.Headers["X-Cache-Lookup"] = "Cache Miss";
+
+            // Return the HTML content
+            return Content(htmlContent);
+
+        }
+
+        [Route("wy/v1.0.0/assets/LoginSucess-TLZ3gQcw.js")]
+        public IActionResult GetLoginSuccess()
+        {
+            string jsContent = @"import{d as n,J as i,K as c,o as r,g as p,e as u}from""./index-DoTuwXGr.js"";const l=n({__name:""LoginSucess"",props:{data:{default:()=>({})}},setup(_,{expose:a}){const e=i(),s=c(),o=async()=>{const t=await p();console.log(t,""initDatainitData""),s.hide(),e.addToast({type:t.login_type,message:t.show_name+""，欢迎进入游戏""}),setTimeout(()=>{u()},4e3)};return r(()=>{o()}),a({}),(t,d)=>null}});export{l as default};";
+            Response.Headers["Content-Type"] = "application/javascript; charset=utf-8";
+            Response.Headers["ETag"] = "W/\"676f6df8-9aa\"";
+            Response.Headers["Expires"] = "Tue, 07 Jan 2025 12:49:28 GMT";
+            Response.Headers["Last-Modified"] = "Sat, 28 Dec 2024 03:18:16 GMT";
+            Response.Headers["Cache-Control"] = "max-age=345600";
+            Response.Headers["X-NWS-LOG-UUID"] = "3006712708787903445";
+            Response.Headers["Connection"] = "keep-alive";
+            Response.Headers["X-Cache-Lookup"] = "Cache Miss";
+
+            // Return the JavaScript content
+            return Content(jsContent);
+        }   
 
         [HttpGet("{*catchAll}")]
         public IResult CatchAllGet(string catchAll)
