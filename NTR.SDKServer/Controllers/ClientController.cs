@@ -189,7 +189,7 @@ namespace NTR.SDKServer.Controllers
         {
             return Results.Text(@"
 {
-    ""code"": 1,
+    ""code"": 0,
     ""data"": {
         ""help_link"": ""https://kf.shiyue.com?project_id=125""
     },
@@ -323,7 +323,7 @@ namespace NTR.SDKServer.Controllers
     " + $"\"code\": {code}, " + @"
     ""message"": ""\u6210\u529f"",
     ""data"": {
-        ""activation_test_status"": ""PC"",
+        ""activation_test_status"": ""check_is_ok"",
         ""activation_test_msg"": ""\u8d26\u53f7\u767b\u5f55\u9a8c\u8bc1\u5931\u8d25\uff0c\u8bf7\u8054\u7cfb\u5ba2\u670d\u786e\u8ba4."",
         ""activation_test_no"": ""\u6d4b\u8bd5\u670d0\u53f7"",
         ""activation_test_show_watermark"": 1,
@@ -332,6 +332,77 @@ namespace NTR.SDKServer.Controllers
     }
 }
 ");
+        }
+
+        [Route("wy/v1.0.0/assets/AuthenticationTip-BE0Lsp1p.css")]
+        public IActionResult GetAuthTipCSS()
+        {
+            // CSS content
+            string cssContent = @"[data-v-f616e45c] .content-body{height:3.17rem!important}";
+            // Set headers
+            Response.Headers["Content-Type"] = "text/css";
+            Response.Headers["ETag"] = "\"676f6df8-32b\"";
+            Response.Headers["Expires"] = "Tue, 07 Jan 2025 12:49:28 GMT";
+            Response.Headers["Last-Modified"] = "Sat, 28 Dec 2024 03:18:16 GMT";
+            Response.Headers["Cache-Control"] = "max-age=345600";
+            Response.Headers["X-NWS-LOG-UUID"] = "312766144472995464";
+            Response.Headers["Connection"] = "keep-alive";
+            Response.Headers["X-Cache-Lookup"] = "Cache Miss";
+
+            // Return the CSS content
+            return Content(cssContent);
+        }
+
+        [Route("wy/v1.0.0/user/login")]
+
+        public IActionResult GetUserLoginHTML()
+        {
+            // you can type on screen with Results.Text(@" lol
+            string htmlContent = @"
+<!doctype html>
+<html lang=""en"">
+  <head>
+    <meta charset=""UTF-8"" />
+    <link rel=""icon"" href=""/wy/v1.0.0/favicon.ico"" />
+    <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"" />
+    <title>SY PC SDK</title>
+    <script type=""module"" crossorigin src=""/wy/v1.0.0/assets/index-DoTuwXGr.js""></script>
+    <link rel=""stylesheet"" crossorigin href=""/wy/v1.0.0/assets/index-CC6zJijL.css"">
+  </head>
+  <body>
+    <div id=""app""></div>
+  </body>
+</html>
+";
+            // Set headers
+            Response.Headers["Content-Type"] = "text/html; charset=utf-8";
+            Response.Headers["ETag"] = "\"676f6df8-1d3\"";
+            Response.Headers["Last-Modified"] = "Sat, 28 Dec 2024 03:18:16 GMT";
+            Response.Headers["X-NWS-LOG-UUID"] = "11933844528989278561";
+            Response.Headers["Connection"] = "keep-alive";
+            Response.Headers["X-Cache-Lookup"] = "Cache Miss";
+
+            // Return the HTML content
+            return Content(htmlContent);
+        }
+
+        [Route("wy/v1.0.0/assets/AuthenticationTip-seZrv27h.js")]
+        public IActionResult GetAuthTipJS()
+        {
+            // JavaScript content
+            string jsContent = @"import{d,o as i,c as u,a as s,D as _,q as l,f as r,p as h,l as x,j as e,_ as f}from""./index-DoTuwXGr.js"";const o=t=>(h(""data-v-f616e45c""),t=t(),x(),t),m=o(()=>e(""div"",{class:""text-[#4C5054] text-[256px] medium-text""},""夏萝莉是小楠梁"",-1)),v=o(()=>e(""div"",{class:""pt-[23px] text-[#878787] text-[24px]""},[e(""p"",null,"" aaaaaaa亲爱的用户您好，根据国家规定，游戏用户均需要使用真实身份完成实名认证后方可进入游戏。请您根据提示完成实名认证。 "")],-1)),C=d({__name:""AuthenticationTip"",props:{data:{default:()=>({})}},setup(t,{expose:c}){const a=l(),n=()=>{a.push({name:""login"",query:{noCheckEnv:""true""}})},p=()=>{a.push({name:""authentication""})};return i(()=>{}),c({}),(k,I)=>(r(),u(_,{handleCancel:n,handleOk:p,cancelText:""原神"",class:""!h-[1000px]""},{title:s(()=>[m]),default:s(()=>[v]),_:1}))}}),S=f(C,[[""__scopeId"",""data-v-f616e45c""]]);export{S as default};";
+            // Set headers
+            Response.Headers["Content-Type"] = "application/javascript; charset=utf-8";
+            Response.Headers["ETag"] = "W/\"676f6df8-9aa\"";
+            Response.Headers["Expires"] = "Tue, 07 Jan 2025 12:49:28 GMT";
+            Response.Headers["Last-Modified"] = "Sat, 28 Dec 2024 03:18:16 GMT";
+            Response.Headers["Cache-Control"] = "max-age=345600";
+            Response.Headers["X-NWS-LOG-UUID"] = "3006712708787903445";
+            Response.Headers["Connection"] = "keep-alive";
+            Response.Headers["X-Cache-Lookup"] = "Cache Miss";
+
+            // Return the JavaScript content
+            return Content(jsContent);
         }
 
         [HttpGet("{*catchAll}")]
